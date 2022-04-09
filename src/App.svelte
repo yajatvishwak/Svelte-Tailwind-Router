@@ -1,12 +1,13 @@
 <script>
-  import Router from "svelte-spa-router";
-  import routes from "./router";
-  //export let name;
+  import Router from 'svelte-spa-router'
+  import routes from './routes.js'
+  
 </script>
 
-<body>
-  <Router {routes} />
-</body>
+<div>
+  <Router {routes}/>
+</div>
+
 
 <style lang="postcss" global>
   @tailwind base;
